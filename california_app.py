@@ -40,7 +40,7 @@ if st.button("Predict House Value"):
     out = model.predict(Input)
 
     st.success(
-        f"🏠 Predicted Median House Value: ${out[0]:,.2f}"
+        f"🏠 Predicted Median House Value: ${out[0]*100000:,.2f}"
     )
 
 #----------------------------end of code-------------------------------
