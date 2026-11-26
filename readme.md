@@ -116,7 +116,3 @@ Joblib 1.6.0
 
 Live Demo
 https://streamlit-ui-2a8e.onrender.com
-
-![alt text][def]
-
-[def]: image-3.png
