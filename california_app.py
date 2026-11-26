@@ -31,7 +31,7 @@ In = []
 
 for i in cols:
     label = feature_labels.get(i, i)
-    v = st.number_input(f"Enter {label}:", min_value=0.0)
+    v = st.number_input(f"Enter {label}:")
     In.append(v)
 
 if st.button("Predict House Value"):
